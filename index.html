@@ -11,15 +11,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+	
 	<script src='main.js'></script>
 </head>
 <body>
-	<div id="Body" style = "width: 100vw; height: 100vh; background-color: transparent; position: relative; border: solid #ff4622 2px; box-sizing: border-box; overflow-x: hidden; overflow-y: visible ;" >
-		<!-- <div id="top" style="width: 100%; height: 100%; background-color:#f5f0ec;  position: absolute; display: flex; justify-content: center; align-items: center; z-index: 30;" >
+	<div id="Body" style = "width: 100vw; height: 100vh; background-color: transparent; position: relative; border: solid #ff4622 0px; box-sizing: border-box; overflow-x: hidden; overflow-y: visible ;" >
+		<div id="top" style="width: 100%; height: 100%; background-color:#f5f0ec;  position: absolute; display: flex; justify-content: center; align-items: center; z-index: 30;" >
 			<h3 id="text_top" style="font-family: 'Pacifico', cursive; font-size: 5vw; z-index: 50; opacity: 0; " >Just <br> Breathe!!</h3>
 			<video id="dog_top" autoplay loop muted src="image/dog.mp4" style="z-index: 50; height: 40vh; width: 40vw; opacity: 0;"></video>
-		</div> -->
-		<div id="home" style="width: 100%; height: 100%; background-color: white; position: absolute; opacity: 1; display: block; overflow-x: hidden; z-index: 5;" >
+		</div>
+		<div id="home" style="width: 100%; height: 100%; background-color: white; position: absolute; opacity: 0; display: block; overflow-x: hidden; z-index: 5;" >
+			
 			<nav id="nav" style="z-index: 6; position: relative; ">
 				<a href="#" style="text-decoration: none;">
 				<div id="logo" style="position: absolute; margin-left: 2.5vw; margin-top: -1vw;">
@@ -33,14 +35,14 @@
 						<a href="#"> Home </a>
 					</li>
 					<li>
-						<a href="#instructors"> Instructors </a>
+						<a href="#instructor"> Instructors </a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="#schedule"> Schedule </a>
 					</li>
 					<li>
 						<a href="#about">About &nbsp; Studio</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="#blog">Blog</a>
 					</li>
@@ -70,7 +72,7 @@
 
 			</div>
 
-			<div style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
+			<div id="instructor"style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
                 <div id="pic1" style="width: 40vw; height: 40vw; margin-top: 2vw; overflow: hidden; display: inline-block;">
 				<img src="image/pic1.png" alt="" style="height: 100%; width: 100%; margin: 0; padding: 0;">
 				</div>
@@ -87,7 +89,35 @@
 
 			</div>
 
-			<div style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
+			<div id="blog"  style="background-color: #e5faf6; width: 100%; height: 67.5vw; margin-top: -1.5vw; position: relative; overflow: hidden; padding-top: 3vw;font-family: 'Caveat Brush', cursive; " >
+
+				<span style="font-family: 'Caveat Brush', cursive;display: flex;justify-content: center;margin-bottom: 5vw;font-size: 5vw;">Recent Blogs</span>
+                <div style="display: flex;justify-content: space-evenly;">
+				<div class="card" >
+					<img src="image/bpic1.png" alt="Avatar" style="width:100%;">
+					<div class="container">
+					  <h3 style="font-size: 2vw;"><b>Easy Pose – Sukhasana</b></h3> 
+					  <p style="font-size: 1.5vw;">The Easy Pose may seem as an easy pose but it has many benefits for the body. For example, it is a hip opener, it is calming, and it eases the menstrual pain for women in addition to lowering the level of anxiety. (while doing the posture make sure your spine is streightened)</p> 
+					</div>
+				  </div>
+				  <div class="card"  >
+					<img  src="image/bpic2.png" alt="Avatar" style="width:100%">
+					<div class="container">
+					  <h3 style="font-size: 2vw;"><b>Crow – Bakasana</b></h3> 
+					  <p style="font-size: 1.5vw;">The Crow yoga pose strengthens the wrists, forearms and abdomen while <br> also stretching the hamstring. Balance is crucial for this pose.</p> 
+					</div>
+				  </div>
+				  <div class="card"  >
+					<img  src="image/bpic3.png" alt="Avatar" style="width:100%">
+					<div class="container">
+					  <h3 style="font-size: 2vw;"><b>King Dancer – Natarajasana</b></h3> 
+					  <p style="font-size: 1.5vw;">The King Dancer yoga pose strengthens your legs, improves balance and core strength while also stretches your shoulders and improves your focus. It is one of the most graceful asana.</p> 
+					</div>
+				  </div>
+				  </div>
+				</div>
+
+			<div id="contact" style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
                 <div id="pic1bg" style="background-color: #8ee2db; height: 45vw; width: 100vw; display: inline-block; border-radius: 50%; margin-left: -65vw;">
 
 				</div>
@@ -100,15 +130,26 @@
 					<input style=" height: 2vw; width: 25vw; margin-top: 2vw; border-radius: 0.75rem; border: transparent; box-shadow: 0 0 100px 1px #027c9a; font-size: 1vw;" type="email" value="" name="EMAIL" class="email" placeholder=" email address" required="">
 					<br>
 					<button id="btn2" style=" height: 2vw; width: 10vw; border-radius: 0.5rem; border: transparent; margin-top: 2vw; margin-left: 7vw; font-size: 1vw; font-weight: 450; ">
-						Sign Up
+						Subscribe
 					</button>
 				</div>
 
 			</div>
 
+			<div id="footer" style="z-index: 9; width: 100vw; height: 6vw; background-color: #017c9a; padding-top: 1vw; padding-left: 2vw; font-family: 'Caveat Brush', cursive;">
+				 <snap id="mail" style="color: cyan; font-size: 1.5vw;">E-mail:     <a href="mailto: rajat.chadha2001@gmail.com" style="text-decoration: none; color: white;">  rajat.chadha2001@gmail.com </a></snap>&nbsp;&nbsp;&nbsp;&nbsp;
+				 <snap id="mail" style="color: cyan; font-size: 1.5vw;">E-mail:     <a href="mailto: akshitbatra222@gmail.com" style="text-decoration: none; color: white;">  akshitbatra222@gmail.com </a></snap>&nbsp;&nbsp;&nbsp;
+					
+					
+					<snap style="color: cyan; font-size: 1.5vw;">Adress:     <span style="color: white;"> Yamunanagar</span></snap>
+					
+				</div> 
+			 
+
 		</div> 
 		
 		
 	</div>
+	
 </body>
 </html>
