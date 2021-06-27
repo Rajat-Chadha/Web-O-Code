@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Yoga Lifestyle</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+	<script src='main.js'></script>
 </head>
 <body>
-    
+	<div id="Body" style = "width: 100vw; height: 100vh; background-color: transparent; position: relative; border: solid #ff4622 2px; box-sizing: border-box; overflow-x: hidden; overflow-y: visible ;" >
+		<!-- <div id="top" style="width: 100%; height: 100%; background-color:#f5f0ec;  position: absolute; display: flex; justify-content: center; align-items: center; z-index: 30;" >
+			<h3 id="text_top" style="font-family: 'Pacifico', cursive; font-size: 5vw; z-index: 50; opacity: 0; " >Just <br> Breathe!!</h3>
+			<video id="dog_top" autoplay loop muted src="image/dog.mp4" style="z-index: 50; height: 40vh; width: 40vw; opacity: 0;"></video>
+		</div> -->
+		<div id="home" style="width: 100%; height: 100%; background-color: white; position: absolute; opacity: 1; display: block; overflow-x: hidden; z-index: 5;" >
+			<nav id="nav" style="z-index: 6; position: relative; ">
+				<a href="#" style="text-decoration: none;">
+				<div id="logo" style="position: absolute; margin-left: 2.5vw; margin-top: -1vw;">
+					<img src="image/logo.png" style="height: 3vw; width: 3.25vw;">
+					<span class="ltext" >Yoga</span>
+					<span class="l2text" >Lifestyle</span>
+				</div>
+
+				<ul class="horizontal-list text-right nav-menu" >
+					<li>
+						<a href="#"> Home </a>
+					</li>
+					<li>
+						<a href="#instructors"> Instructors </a>
+					</li>
+					<li>
+						<a href="#schedule"> Schedule </a>
+					</li>
+					<li>
+						<a href="#about">About &nbsp; Studio</a>
+					</li>
+					<li>
+						<a href="#blog">Blog</a>
+					</li>
+					<li style="padding-right: 2.5em;"> 
+						<a href="#contact">Contact &nbsp; Us</a>
+					</li>
+				</ul>
+				</a>
+	
+			</nav>
+			<div style=" width: 100%; overflow: hidden " >
+			<video autoplay loop muted src="image/home.mp4" style="z-index: 5; height: 100%; width: 100%; "></video>
+			</div>	
+			<div id="H-data" style="position:absolute;">
+				<span class="htext animate">Welcome to</span>
+				<br>
+				<span class="htext animate">Yoga </span>
+				<span class="h2text animate">Lifestyle </span>
+				<span class="htext animate">studio!</span>
+				<p class="animate" style="margin-top: 1.5vw; font-size: 1.5vw; color: black; font-family: 'Caveat Brush', cursive;">
+					Perfect Place to Harmonize your Body with your Mind <br> while having the Comfort of your home. <br>
+					We at Yoga Lifestyle help you to achieve that <span style=" color: #007d99; "> Harmony. </span>
+				</p>
+				<button class="animate" id="btn1" style=" height: 2vw; width: 11vw; border-radius: 0.5rem; border: transparent; margin-top: 2vw; font-size: 1.1vw; font-weight: 450; ">
+					Sign up for Classes
+				</button>
+
+			</div>
+
+			<div style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
+                <div id="pic1" style="width: 40vw; height: 40vw; margin-top: 2vw; overflow: hidden; display: inline-block;">
+				<img src="image/pic1.png" alt="" style="height: 100%; width: 100%; margin: 0; padding: 0;">
+				</div>
+				<div id="pic1bg" style="background-color: #8ee2db; height: 45vw; width: 100vw; display: inline-block; border-radius: 50%; margin-left: 70vw; margin-top: -45vw; margin-bottom: 30vw;">
+
+				</div>	
+				<div id="pic1txt" style="background-color: transparent; position: absolute; margin-top: -70vw; margin-left:45vw ; height: auto; width: 50vw; font-size: 2vw;" >
+					<span style="font-family: 'Caveat Brush', cursive; font-size: 3.5vw;">Take your Yoga to the next level with us</span>
+					<p style="margin-top: 2vw; font-family: 'Caveat Brush', cursive; font-size: 2vw; color: #053c4c;">Learning from a skilled yoga instructor is invaluable to your yoga practice. A good teacher can show you the fundamentals of the asanas, from proper form to little tweaks that can help you get the most from each pose. They can help prevent injury by assessing your unique limitations and offering modifications. They can teach you the benefits of each posture and sequence them effectively to reach specific goals. With their guidance, you can more safely progress from beginner to advanced poses. And, of course, they can inspire you with their insights and encouragement.</p>
+					<button id="btn2" style=" height: 2vw; width: 10vw; border-radius: 0.5rem; border: transparent; margin-top: 2vw; font-size: 1vw; font-weight: 450; ">
+						Learn More
+					</button>
+				</div>
+
+			</div>
+
+			<div style="background-color: #e5faf6; width: 100%; height: 42vw; margin-top: -1.5vw; position: relative; overflow: hidden; " >
+                <div id="pic1bg" style="background-color: #8ee2db; height: 45vw; width: 100vw; display: inline-block; border-radius: 50%; margin-left: -65vw;">
+
+				</div>
+				<div id="pic2" style="width: 40vw; height: 40vw; margin-top: 2vw; margin-left: 50vw; overflow: hidden; display: inline-block; margin-top: -90vw; margin-bottom: 10vw;" >
+					<img src="image/contact.svg" alt="" style="height: 100%; width: 100%; margin: 0; padding: 0;">
+				</div>
+				<div id="pic1txt" style="background-color: transparent; position: absolute; margin-top: -40vw; margin-left:10vw ; height: auto; width: 50vw; font-size: 2vw;" >
+					<span style="font-family: 'Caveat Brush', cursive; font-size: 3.5vw;">Let's Stay in Touch</span>
+					<br>
+					<input style=" height: 2vw; width: 25vw; margin-top: 2vw; border-radius: 0.75rem; border: transparent; box-shadow: 0 0 100px 1px #027c9a; font-size: 1vw;" type="email" value="" name="EMAIL" class="email" placeholder=" email address" required="">
+					<br>
+					<button id="btn2" style=" height: 2vw; width: 10vw; border-radius: 0.5rem; border: transparent; margin-top: 2vw; margin-left: 7vw; font-size: 1vw; font-weight: 450; ">
+						Sign Up
+					</button>
+				</div>
+
+			</div>
+
+		</div> 
+		
+		
+	</div>
 </body>
 </html>

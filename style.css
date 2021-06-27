@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.horizontal-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5vw;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 6px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 1.5vw;
+	font-family: 'Caveat Brush', cursive;
+	padding-left:1.5em;
+}
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: border-bottom 0s;
+}
+
+.nav-menu li a:hover {
+    border-bottom: 2px solid #ff4622;
+}
+
+.text-right {
+    text-align: right;
+	
+}
+.ltext{
+	font-weight: 100;
+    font-size: 2vw;
+	color: black;
+	font-family: 'Caveat Brush', cursive;
+}
+.l2text{
+	font-weight: 100;
+    font-size: 1.75vw;
+	color: #ff4622;
+	font-family: 'Caveat Brush', cursive;
+}
+.htext{
+	font-weight: 0;
+    font-size: 5vw;
+	color: black;
+	font-family: 'Caveat Brush', cursive;
+}
+.h2text{
+	font-weight: 0;
+    font-size: 5vw;
+	color: #ff4622;
+	font-family: 'Caveat Brush', cursive;
+}
+#H-data{
+	z-index: 7;
+	margin-top: -47.5vw;
+	margin-left: 3vw;
+}
+#top{
+	animation: top 0.5s 1;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+#dog_top{
+	animation: dog_top 2s 1;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+#text_top{
+	animation: text_top 2s 1;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+/* #home{
+	animation: home 1s 1;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+} */
+.animate{
+	
+	opacity: 0;
+	animation: animate 2s 1;
+	animation-delay: 10;
+	animation-fill-mode: forwards;
+}
+#btn1{
+	background-color: #ff4622; 
+	color: white;
+}
+#btn1:hover{
+	background-color: white;
+	color: #ff4622;
+	box-shadow: 0 0 20px 3px #027c9a;
+}
+#btn2{
+	background-color: #037d9b; 
+	color: white;
+}
+#btn2:hover{
+	background-color: white;
+	color: #037d9b;
+	box-shadow: 0 0 20px 3px #027c9a;
+}
+@keyframes animate{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes home{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes dog_top {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes text_top {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes top {
+	0%{
+		opacity: 1;
+	}
+	25%{
+		opacity: 0.75;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	75%{
+		opacity: 0.25;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+#home::-webkit-scrollbar {
+	width: 5px; 
+ }
+
+#home::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+}
+
+#home::-webkit-scrollbar-thumb {
+  background: #ff4622;
+  border-radius: 25px;
+}
+
